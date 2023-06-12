@@ -1,5 +1,9 @@
 import random
 
+print("What is your name?")
+name = input(">")
+print("Hello, " + name + "!")
+
 die1 = random.randint(1, 6)
 die2 = random.randint(1, 6)
 
